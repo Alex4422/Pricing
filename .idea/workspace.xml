@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4230c86-93ef-4d4b-8a70-86f38cd4fe40" name="Default Changelist" comment="" />
+    <list default="true" id="f4230c86-93ef-4d4b-8a70-86f38cd4fe40" name="Default Changelist" comment="Dépôt du projet pricing">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pricing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_FICHIERS/dump.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/FrontEndController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ProductForSaleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/StateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/ProductForSale.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/State.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/ProductForSaleType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/ProductType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/StateType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ProductForSaleRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/StateRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security/MyAuthentificatorAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/_MENU.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/front_end/search.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/front_end/sell.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/front_end/welcome.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product_for_sale/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product_for_sale/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product_for_sale/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product_for_sale/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product_for_sale/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product_for_sale/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/state/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/state/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/state/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/state/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/state/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/state/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +78,19 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alex4422 &lt;alexandregautier82@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -117,6 +196,8 @@
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ertsmO39DtKB71aUHuIvIcCvQx" />
@@ -125,6 +206,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -136,6 +218,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -151,17 +237,58 @@
       <workItem from="1595145729051" duration="179000" />
       <workItem from="1595167920881" duration="1578000" />
       <workItem from="1595192753246" duration="3000" />
-      <workItem from="1595230824212" duration="1071000" />
+      <workItem from="1595230824212" duration="1494000" />
+      <workItem from="1595235237691" duration="19000" />
+      <workItem from="1595235294656" duration="5669000" />
+      <workItem from="1595317575437" duration="9209000" />
+      <workItem from="1595364164658" duration="1239000" />
+      <workItem from="1595399770032" duration="8431000" />
+      <workItem from="1595490128510" duration="19720000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dépôt du projet pricing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dépôt du projet pricing" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="539" y="276" width="598" height="490" key="find.popup" timestamp="1595179387615">
+    <state x="378" y="174" key="#Deployment" timestamp="1595537873117">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="378" y="174" key="#Deployment/0.23.1680.973@0.23.1680.973" timestamp="1595537873117" />
+    <state x="578" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595405953527">
       <screen x="0" y="23" width="1680" height="1002" />
     </state>
-    <state x="539" y="276" width="598" height="490" key="find.popup/0.23.1680.1002@0.23.1680.1002" timestamp="1595179387615" />
+    <state x="578" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1002@0.23.1680.1002" timestamp="1595405953527" />
+    <state x="355" y="81" key="CommitChangelistDialog2" timestamp="1595537943250">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="355" y="81" key="CommitChangelistDialog2/0.23.1680.973@0.23.1680.973" timestamp="1595537943250" />
+    <state x="0" y="491" key="NewPhpClassDialog" timestamp="1595365821998">
+      <screen x="0" y="23" width="1680" height="1002" />
+    </state>
+    <state x="0" y="491" key="NewPhpClassDialog/0.23.1680.1002@0.23.1680.1002" timestamp="1595365821998" />
+    <state x="679" y="229" key="RollbackChangesDialog" timestamp="1595408340596">
+      <screen x="0" y="23" width="1680" height="1002" />
+    </state>
+    <state x="679" y="229" key="RollbackChangesDialog/0.23.1680.1002@0.23.1680.1002" timestamp="1595408340596" />
+    <state x="2" y="148" key="SettingsEditor" timestamp="1595510839353">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="2" y="148" key="SettingsEditor/0.23.1680.973@0.23.1680.973" timestamp="1595510839353" />
+    <state x="539" y="268" width="713" height="490" key="find.popup" timestamp="1595510950596">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="539" y="276" width="713" height="490" key="find.popup/0.23.1680.1002@0.23.1680.1002" timestamp="1595346129513" />
+    <state x="539" y="268" width="713" height="490" key="find.popup/0.23.1680.973@0.23.1680.973" timestamp="1595510950596" />
+    <state x="539" y="274" width="713" height="490" key="find.popup/0.23.1680.995@0.23.1680.995" timestamp="1595427798088" />
+    <state x="505" y="239" width="670" height="627" key="search.everywhere.popup" timestamp="1595495704060">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595237354534" />
+    <state x="505" y="239" width="670" height="627" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1595495704060" />
   </component>
 </project>
