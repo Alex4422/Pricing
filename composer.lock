@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "baebc4c77b2a633234f064f09a4296db",
+    "content-hash": "c3e4fa3a611aa542073699c5a14e8bb6",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -822,8 +822,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector",
-                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
+                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector",
+                    "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1402,6 +1402,7 @@
                 "reflection",
                 "static"
             ],
+            "abandoned": "roave/better-reflection",
             "time": "2020-03-27T11:06:43+00:00"
         },
         {
@@ -1514,134 +1515,6 @@
                 "validator"
             ],
             "time": "2020-06-16T20:11:17+00:00"
-        },
-        {
-            "name": "knplabs/knp-menu",
-            "version": "v3.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "254fb64d545f087451cc197a7fa5d47e03ffb038"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/254fb64d545f087451cc197a7fa5d47e03ffb038",
-                "reference": "254fb64d545f087451cc197a7fa5d47e03ffb038",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2"
-            },
-            "conflict": {
-                "twig/twig": "<1.40 || >=2,<2.9"
-            },
-            "require-dev": {
-                "phpspec/prophecy": "^1.8",
-                "psr/container": "^1.0",
-                "symfony/http-foundation": "^3.4 || ^4.2|| ^5.0",
-                "symfony/phpunit-bridge": "^3.3 || ^4.2|| ^5.0",
-                "symfony/routing": "^3.4 || ^4.2|| ^5.0",
-                "twig/twig": "^1.40 || ^2.9 || ^3.0"
-            },
-            "suggest": {
-                "twig/twig": "for the TwigRenderer and the integration with your templates"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Knp\\Menu\\": "src/Knp/Menu"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "KnpLabs",
-                    "homepage": "https://knplabs.com"
-                },
-                {
-                    "name": "Christophe Coevoet",
-                    "email": "stof@notk.org"
-                },
-                {
-                    "name": "The Community",
-                    "homepage": "https://github.com/KnpLabs/KnpMenu/contributors"
-                }
-            ],
-            "description": "An object oriented menu library",
-            "homepage": "https://knplabs.com",
-            "keywords": [
-                "menu",
-                "tree"
-            ],
-            "time": "2020-04-22T14:37:23+00:00"
-        },
-        {
-            "name": "knplabs/knp-menu-bundle",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "2795e236db1d807040762be9a2813ab8c6ed0569"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/2795e236db1d807040762be9a2813ab8c6ed0569",
-                "reference": "2795e236db1d807040762be9a2813ab8c6ed0569",
-                "shasum": ""
-            },
-            "require": {
-                "knplabs/knp-menu": "^3.0",
-                "php": "^7.2",
-                "symfony/framework-bundle": "^3.4 | ^4.2 | ^5.0"
-            },
-            "require-dev": {
-                "phpspec/prophecy": "^1.8",
-                "symfony/expression-language": "^3.4 | ^4.2 | ^5.0",
-                "symfony/phpunit-bridge": "^3.4 | ^4.2 | ^5.0",
-                "symfony/templating": "^3.4 | ^4.0 | ^5.0"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Knp\\Bundle\\MenuBundle\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Knplabs",
-                    "homepage": "http://knplabs.com"
-                },
-                {
-                    "name": "Christophe Coevoet",
-                    "email": "stof@notk.org"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://github.com/KnpLabs/KnpMenuBundle/contributors"
-                }
-            ],
-            "description": "This bundle provides an integration of the KnpMenu library",
-            "keywords": [
-                "menu"
-            ],
-            "time": "2019-12-01T13:07:41+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4172,6 +4045,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "EnglishInflector from the String component",
             "time": "2020-05-20T17:43:50+00:00"
         },
         {
@@ -4741,12 +4615,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4898,12 +4772,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4980,12 +4854,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -5032,20 +4906,23 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.18.0",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a"
+                "reference": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a6977d63bf9a0ad4c65cd352709e230876f9904a",
-                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+                "reference": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-mbstring": "*"
             },
             "suggest": {
                 "ext-mbstring": "For best performance"
@@ -5053,7 +4930,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.18-dev"
+                    "dev-main": "1.26-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -5061,12 +4938,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5105,7 +4982,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-14T12:35:20+00:00"
+            "time": "2022-05-24T11:49:31+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
@@ -5135,12 +5012,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php73\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -5211,12 +5088,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php80\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -6277,12 +6154,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\String\\": ""
-                },
                 "files": [
                     "Resources/functions.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Component\\String\\": ""
+                },
                 "exclude-from-classmap": [
                     "/Tests/"
                 ]
@@ -7222,16 +7099,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.0.4",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "582bdbdc173027ebfba3c93dc750a40b8f9ebc02"
+                "reference": "c38fd6b0b7f370c198db91ffd02e23b517426b58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/582bdbdc173027ebfba3c93dc750a40b8f9ebc02",
-                "reference": "582bdbdc173027ebfba3c93dc750a40b8f9ebc02",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c38fd6b0b7f370c198db91ffd02e23b517426b58",
+                "reference": "c38fd6b0b7f370c198db91ffd02e23b517426b58",
                 "shasum": ""
             },
             "require": {
@@ -7241,12 +7118,12 @@
             },
             "require-dev": {
                 "psr/container": "^1.0",
-                "symfony/phpunit-bridge": "^4.4.9|^5.0.9"
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9|^6.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -7282,18 +7159,6 @@
             ],
             "funding": [
                 {
-                    "url": "https://certification.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://live.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://symfony.com/cloud/",
-                    "type": "custom"
-                },
-                {
                     "url": "https://github.com/fabpot",
                     "type": "github"
                 },
@@ -7302,19 +7167,19 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-05T13:18:14+00:00"
+            "time": "2022-09-28T08:42:51+00:00"
         },
         {
             "name": "webmozart/assert",
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -7468,6 +7333,134 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "knplabs/knp-menu",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/KnpMenu.git",
+                "reference": "254fb64d545f087451cc197a7fa5d47e03ffb038"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/254fb64d545f087451cc197a7fa5d47e03ffb038",
+                "reference": "254fb64d545f087451cc197a7fa5d47e03ffb038",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "conflict": {
+                "twig/twig": "<1.40 || >=2,<2.9"
+            },
+            "require-dev": {
+                "phpspec/prophecy": "^1.8",
+                "psr/container": "^1.0",
+                "symfony/http-foundation": "^3.4 || ^4.2|| ^5.0",
+                "symfony/phpunit-bridge": "^3.3 || ^4.2|| ^5.0",
+                "symfony/routing": "^3.4 || ^4.2|| ^5.0",
+                "twig/twig": "^1.40 || ^2.9 || ^3.0"
+            },
+            "suggest": {
+                "twig/twig": "for the TwigRenderer and the integration with your templates"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Menu\\": "src/Knp/Menu"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KnpLabs",
+                    "homepage": "https://knplabs.com"
+                },
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                },
+                {
+                    "name": "The Community",
+                    "homepage": "https://github.com/KnpLabs/KnpMenu/contributors"
+                }
+            ],
+            "description": "An object oriented menu library",
+            "homepage": "https://knplabs.com",
+            "keywords": [
+                "menu",
+                "tree"
+            ],
+            "time": "2020-04-22T14:37:23+00:00"
+        },
+        {
+            "name": "knplabs/knp-menu-bundle",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
+                "reference": "2795e236db1d807040762be9a2813ab8c6ed0569"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/2795e236db1d807040762be9a2813ab8c6ed0569",
+                "reference": "2795e236db1d807040762be9a2813ab8c6ed0569",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/knp-menu": "^3.0",
+                "php": "^7.2",
+                "symfony/framework-bundle": "^3.4 | ^4.2 | ^5.0"
+            },
+            "require-dev": {
+                "phpspec/prophecy": "^1.8",
+                "symfony/expression-language": "^3.4 | ^4.2 | ^5.0",
+                "symfony/phpunit-bridge": "^3.4 | ^4.2 | ^5.0",
+                "symfony/templating": "^3.4 | ^4.0 | ^5.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Bundle\\MenuBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Knplabs",
+                    "homepage": "http://knplabs.com"
+                },
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/KnpLabs/KnpMenuBundle/contributors"
+                }
+            ],
+            "description": "This bundle provides an integration of the KnpMenu library",
+            "keywords": [
+                "menu"
+            ],
+            "time": "2019-12-01T13:07:41+00:00"
+        },
         {
             "name": "nikic/php-parser",
             "version": "v4.6.0",
